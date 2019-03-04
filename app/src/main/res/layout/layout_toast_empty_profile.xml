@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/toast_shape"
+        android:id="@+id/error"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty values !"
+                android:textColor="#6c6c6c"
+                android:id="@+id/tve1"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="රසකතා ලියන්න පෙර නම හා දුරකථන අංකය ඇතුලත් කිරීම අනිවාර්ය වේ.\nනිවැරදි අගයන් යොදන්න"
+                android:textColor="#6c6c6c"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/tve1"
+                android:id="@+id/tve2"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:lineSpacingMultiplier="1.2"/>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

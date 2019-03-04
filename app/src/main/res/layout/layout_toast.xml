@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/toast_shape"
+        android:id="@+id/error"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No internet connection"
+                android:textColor="#6c6c6c"
+                android:id="@+id/tve1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="අන්තර්ජාල පහසුකම් නොමැත"
+                android:textColor="#6c6c6c"
+                android:layout_marginTop="1dp"
+                android:layout_below="@+id/tve1"
+                android:id="@+id/tve2"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                app:lottie_fileName="warning.json"
+                app:lottie_loop="false"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="#ff0000"
+                android:id="@+id/error_anim"
+                android:layout_toRightOf="@+id/tve2"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

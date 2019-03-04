@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "234498534620",
+    "firebase_url": "https://story-e88d1.firebaseio.com",
+    "project_id": "story-e88d1",
+    "storage_bucket": "story-e88d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234498534620:android:1286d2e5833eab70",
+        "android_client_info": {
+          "package_name": "org.senani.sachith.story2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234498534620-b4h1dhoh2jfht7eluqefrj5n5eaa7uh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.senani.sachith.story2",
+            "certificate_hash": "fbce0acdac07327c0787e1a40d675e568dcec5d0"
+          }
+        },
+        {
+          "client_id": "234498534620-p3n65i2qqud3dh7oplb3a23fppf55rif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.senani.sachith.story2",
+            "certificate_hash": "def385dc802f597351b5afce6fb7a4a3d77b0d31"
+          }
+        },
+        {
+          "client_id": "234498534620-t5tpn3l56cp8i3lgb6g9ejihb0lg4lk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw51A4hxjsL2Rqp1Fts3iBchb-RL8-6bw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234498534620-t5tpn3l56cp8i3lgb6g9ejihb0lg4lk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

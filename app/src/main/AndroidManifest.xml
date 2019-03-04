@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.senani.sachith.story2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WriteActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BodyActivity" />
+        <activity
+            android:name=".PopActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".BodyActivityLiked" />
+        <activity android:name=".BodyActivitySaved" />
+        <activity android:name=".WriteActivityFirst"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WriteActivitySecond"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FinalActivity" />
+        <activity android:name=".WriteActivityNp"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

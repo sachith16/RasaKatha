@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.senani.sachith.story2.PopActivity"
+    android:background="@android:color/transparent"
+    >
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/pop_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/relativeLayout"
+        >
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/reload"
+            android:background="@drawable/popitem_selector2"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_reload"
+                android:layout_centerHorizontal="true"/>
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/home_btn"
+            android:layout_below="@+id/reload"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/home_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:layout_below="@+id/im1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/write_btn"
+            android:layout_toRightOf="@+id/home_btn"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/reload"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/write_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Write"
+                android:layout_below="@+id/im2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/liked_btn"
+            android:layout_below="@+id/home_btn"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/liked_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most liked"
+                android:layout_below="@+id/im3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/saved_btn"
+            android:layout_toRightOf="@+id/liked_btn"
+            android:layout_below="@+id/home_btn"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/saved_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Downloaded"
+                android:layout_below="@+id/im4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/my_btn"
+            android:layout_below="@+id/liked_btn"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+          >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/my_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My stories"
+                android:layout_below="@+id/im5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="14%"
+            android:id="@+id/profile_btn"
+            android:layout_toRightOf="@+id/my_btn"
+            android:layout_below="@+id/saved_btn"
+            android:background="@drawable/popitem_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile_btn"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/im6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_below="@+id/im6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_btn"
+        android:src="@drawable/rasa4"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/writead"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>
